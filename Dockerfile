@@ -1,4 +1,4 @@
-FROM alpine:3.19 AS updated-base
+FROM alpine:3.20 AS updated-base
 RUN \
   apk upgrade -U --no-cache
 
